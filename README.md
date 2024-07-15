@@ -8,3 +8,18 @@ It has similar syntax to normal markdown, however it can be a problem to convert
 
 ## Usage
 
+```go
+package main 
+
+import (
+    "github.com/zavitkov/tg-markdown"
+    "fmt"
+)
+
+func main() {
+    markdown := `This is **bold** *italic* ~strikethrough~ text with [wrapped](https://github.com/zavitkov/tg-markdown) link and unwrapped link: https://github.com/zavitkov/tg-markdown`
+
+    tgMarkdownV2 := tg_markdown.ConvertMarkdownToTelegramMarkdownV2(markdown)
+    fmt.Println(tgMarkdownV2)
+}
+```
