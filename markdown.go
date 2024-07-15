@@ -1,4 +1,4 @@
-package markdown_to_telegram_markdownv2_converter
+package tg_markdown
 
 import (
 	"fmt"
