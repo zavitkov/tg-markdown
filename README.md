@@ -22,6 +22,6 @@ func main() {
     tgMarkdownV2 := tg_markdown.ConvertMarkdownToTelegramMarkdownV2(markdown)
     fmt.Println(tgMarkdownV2)
 	
-	//output: This is *bold* _italic_ ~strikethrough~ text with [wrapped](https://github.com/zavitkov/tg-markdown) link and unwrapped link: [https://github\.com/zavitkov/tg\-markdown](https://github.com/zavitkov/tg-markdown)
+    //output: This is *bold* _italic_ ~strikethrough~ text with [wrapped](https://github.com/zavitkov/tg-markdown) link and unwrapped link: [https://github\.com/zavitkov/tg\-markdown](https://github.com/zavitkov/tg-markdown)
 }
 ```
