@@ -6,6 +6,14 @@
 
 It has similar syntax to normal markdown, however it can be a problem to convert already existent Markdown text to Telegram MarkdownV2.
 
+## Features
+
+1. Convert Markdown Bold (`**Bold**`) to Telegram MarkdownV2 Bold (`*Bold*`)
+2. Convert Markdown Italic (`*Italic*` or `_Italic_`) to Telegram MarkdownV2 Italic (`_Italic_`)
+3. Convert Markdown Strikethrough (`~Strikethrough~`) to Telegram MarkdownV2 Italic (`~Strikethrough~`)
+4. Parse unwrapped links (`https://example.com`) and wrap them (`[https://example.com](https://example.com)`)
+5. Parse Markdown inline code and code blocks and escape special chars inside them for Telegram MarkdownV2.
+
 ## Usage
 
 ```go
